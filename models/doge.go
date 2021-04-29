@@ -11,7 +11,6 @@ type Doge struct {
 			Quote struct {
 				USD struct {
 					Price              float64 `json:"price"`
-					Volume_24h         int64   `json:"volume_24h"`
 					Percent_change_1h  float64 `json:"Percent_change_1h"`
 					Percent_change_24h float64 `json:"Percent_change_24h"`
 					Percent_change_7d  float64 `json:"Percent_change_7d"`
